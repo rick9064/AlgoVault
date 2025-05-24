@@ -1,5 +1,7 @@
 --prefer-binary
 
+pywinpty; sys_platform == "win32"
+
 a2wsgi==1.10.8
 aiohappyeyeballs==2.6.1
 aiohttp==3.11.18
