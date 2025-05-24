@@ -1,7 +1,5 @@
 --prefer-binary
 
-pywinpty; sys_platform == "win32"
-
 a2wsgi==1.10.8
 aiohappyeyeballs==2.6.1
 aiohttp==3.11.18
@@ -78,8 +76,6 @@ jupyter-events==0.10.0
 jupyter-lsp==2.2.5
 jupyter_client==8.6.3
 jupyter_core==5.7.2
-jupyter_server==2.14.2
-jupyter_server_terminals==0.5.3
 jupyterlab==4.3.3
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.27.3
@@ -145,7 +141,6 @@ python-dotenv==1.1.0
 python-json-logger==2.0.7
 python-multipart==0.0.20
 pytz==2024.2
-pywinpty==2.0.14
 PyYAML==6.0.2
 pyzmq==26.2.0
 questionary==2.1.0
@@ -168,7 +163,6 @@ sniffio==1.3.1
 soupsieve==2.6
 stack-data==0.6.3
 starlette==0.46.2
-terminado==0.18.1
 threadpoolctl==3.5.0
 thrift==0.21.0
 tinycss2==1.4.0
