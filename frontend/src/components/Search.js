@@ -48,7 +48,7 @@ const Search = () => {
                 throw new Error('Invalid target value');
             }
 
-            const response = await fetch('http://localhost:5000/search', {
+            const response = await fetch('https://algovault.onrender.com/search', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
