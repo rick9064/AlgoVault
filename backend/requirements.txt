@@ -1,4 +1,5 @@
 --prefer-binary
+orjson --prefer-binary
 
 a2wsgi==1.10.8
 aiohappyeyeballs==2.6.1
